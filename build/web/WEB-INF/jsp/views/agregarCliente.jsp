@@ -6,8 +6,7 @@
                     <form:form commandName="cliente" method="post" enctype="multipart/form-data">
                          <form:errors path="*"></form:errors><br><br>
                         <form:label path="nombre" cssClass="input-group-addon">Digite el Nombre: </form:label>
-                        <form:input path="nombre" cssClass="form-control"></form:input>
-
+                        <form:input path="nombre" cssClass="form-control" required="required"></form:input>
                         <form:label path="direccion" cssClass="input-group-addon">Digite la Dirección: </form:label>
                         <form:input path="direccion" cssClass="form-control" required="required"></form:input>
                         <form:label path="correo" cssClass="input-group-addon">Digite el e-Mail: </form:label>
